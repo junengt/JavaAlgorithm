@@ -1,4 +1,4 @@
-package algorithm.javaalgorithm;
+package algorithm.javaalgorithm.String;
 
 public class ReverseStringWithSpecial {
     public String solution(String str) {
