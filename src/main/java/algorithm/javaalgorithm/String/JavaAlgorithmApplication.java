@@ -1,5 +1,6 @@
 package algorithm.javaalgorithm.String;
 
+import algorithm.javaalgorithm.Array.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -109,10 +110,80 @@ public class JavaAlgorithmApplication {
         /**
          * StringPassword
          */
-        StringPassword stringPassword = new StringPassword();
+//        StringPassword stringPassword = new StringPassword();
+//        int n = sc.nextInt();
+//        String str = sc.next();
+//        System.out.println(stringPassword.solution(n, str));
+
+        /**
+         * BigNumber
+         */
+//        BigNumber bigNumber = new BigNumber();
+//        int n = sc.nextInt();
+//        int[] array = new int[n];
+//        for (int i=0; i<n; i++) {
+//            array[i] = sc.nextInt();
+//        }
+//        for (int x : bigNumber.solution(n, array)) {
+//            System.out.print(x + " ");
+//        }
+
+        /**
+         * StudentNumber
+         */
+//        StudentNumber studentNumber = new StudentNumber();
+//        int n = sc.nextInt();
+//        int[] arr = new int[n];
+//        for (int i=0; i<n; i++) {
+//            arr[i] = sc.nextInt();
+//        }
+//        System.out.println(studentNumber.solution(n, arr));
+
+        /**
+         * RockPaper
+         */
+//        RockPaper rockPaper = new RockPaper();
+//        int n = sc.nextInt();
+//        int[] a = new int[n];
+//        int[] b = new int[n];
+//        for (int i=0; i<n; i++) {
+//            a[i] = sc.nextInt();
+//        }
+//        for (int i=0; i<n; i++) {
+//            b[i] = sc.nextInt();
+//        }
+//        for (char x : rockPaper.solution(n, a, b).toCharArray()) {
+//            System.out.println(x);
+
+        /**
+         * Fibonacci
+         */
+//        Fibonacci fibonacci = new Fibonacci();
+//        int n = sc.nextInt();
+////        for (int x : fibonacci.solution(n)) {
+////            System.out.print(x + " ");
+////        }
+//        fibonacci.solutionV2(n);
+
+        /**
+         * PrimeNumber
+         */
+//        PrimeNumber primeNumber = new PrimeNumber();
+//        int n = sc.nextInt();
+//        System.out.println(primeNumber.solution(n));
+
+        /**
+         * ReversePrimeNumber
+         */
+        ReversePrimeNumber reversePrimeNumber = new ReversePrimeNumber();
         int n = sc.nextInt();
-        String str = sc.next();
-        System.out.println(stringPassword.solution(n, str));
+        int[] arr = new int[n];
+        for (int i=0; i<n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        for (int x: reversePrimeNumber.solution(n, arr)) {
+            System.out.print(x + " ");
+        }
     }
 
 }
