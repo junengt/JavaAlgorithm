@@ -175,13 +175,37 @@ public class JavaAlgorithmApplication {
         /**
          * ReversePrimeNumber
          */
-        ReversePrimeNumber reversePrimeNumber = new ReversePrimeNumber();
+//        ReversePrimeNumber reversePrimeNumber = new ReversePrimeNumber();
+//        int n = sc.nextInt();
+//        int[] arr = new int[n];
+//        for (int i=0; i<n; i++) {
+//            arr[i] = sc.nextInt();
+//        }
+//        for (int x: reversePrimeNumber.solution(n, arr)) {
+//            System.out.print(x + " ");
+//        }
+
+        /**
+         * Score
+         */
+//        Score score = new Score();
+//        int n = sc.nextInt();
+//        int[] arr = new int[n];
+//        for (int i=0; i<n; i++) {
+//            arr[i] = sc.nextInt();
+//        }
+//        System.out.println(score.solution(n, arr));
+
+        /**
+         * Grade
+         */
+        Grade grade = new Grade();
         int n = sc.nextInt();
         int[] arr = new int[n];
         for (int i=0; i<n; i++) {
             arr[i] = sc.nextInt();
         }
-        for (int x: reversePrimeNumber.solution(n, arr)) {
+        for (int x : grade.solution(n, arr)) {
             System.out.print(x + " ");
         }
     }
