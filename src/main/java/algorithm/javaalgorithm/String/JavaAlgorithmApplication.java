@@ -199,15 +199,41 @@ public class JavaAlgorithmApplication {
         /**
          * Grade
          */
-        Grade grade = new Grade();
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        for (int i=0; i<n; i++) {
-            arr[i] = sc.nextInt();
-        }
-        for (int x : grade.solution(n, arr)) {
-            System.out.print(x + " ");
-        }
-    }
+//        Grade grade = new Grade();
+//        int n = sc.nextInt();
+//        int[] arr = new int[n];
+//        for (int i=0; i<n; i++) {
+//            arr[i] = sc.nextInt();
+//        }
+//        for (int x : grade.solution(n, arr)) {
+//            System.out.print(x + " ");
+//        }
 
+        /**
+         * Cross
+         */
+//        Cross cross = new Cross();
+//        int n = sc.nextInt();
+//        int[][] arr = new int[n][n];
+//        for(int i=0; i<n; i++) {
+//            for (int j=0; j<n; j++) {
+//                arr[i][j] = sc.nextInt();
+//            }
+//        }
+//        System.out.println(cross.solution(n, arr));
+
+        /**
+         * Mountain
+         */
+        Mountain mountain = new Mountain();
+        int n = sc.nextInt();
+        int[][] arr = new int[n][n];
+        for (int i=0; i<n; i++) {
+            for (int j=0; j<n; j++) {
+                arr[i][j] = sc.nextInt();
+            }
+        }
+        System.out.println(mountain.solution(n, arr));
+
+    }
 }
