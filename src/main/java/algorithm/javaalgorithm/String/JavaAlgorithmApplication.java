@@ -225,15 +225,41 @@ public class JavaAlgorithmApplication {
         /**
          * Mountain
          */
-        Mountain mountain = new Mountain();
+//        Mountain mountain = new Mountain();
+//        int n = sc.nextInt();
+//        int[][] arr = new int[n][n];
+//        for (int i=0; i<n; i++) {
+//            for (int j=0; j<n; j++) {
+//                arr[i][j] = sc.nextInt();
+//            }
+//        }
+//        System.out.println(mountain.solution(n, arr));
+
+        /**
+         * President
+         */
+//        President president = new President();
+//        int n = sc.nextInt();
+//        int[][] arr = new int[n+1][6];
+//        for (int i=1; i<=n; i++) {
+//            for (int j=1; j<=5; j++) {
+//                arr[i][j] = sc.nextInt();
+//            }
+//        }
+//        System.out.println(president.solution(n, arr));
+
+        /**
+         * Mentor
+         */
+        Mentor mentor = new Mentor();
         int n = sc.nextInt();
-        int[][] arr = new int[n][n];
-        for (int i=0; i<n; i++) {
+        int m = sc.nextInt();
+        int[][] arr = new int[m][n];
+        for (int i=0; i<m; i++) {
             for (int j=0; j<n; j++) {
                 arr[i][j] = sc.nextInt();
             }
         }
-        System.out.println(mountain.solution(n, arr));
-
+        System.out.println(mentor.solution(n, m, arr));
     }
 }
