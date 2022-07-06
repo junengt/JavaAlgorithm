@@ -1,6 +1,7 @@
-package algorithm.javaalgorithm.String;
+package algorithm.javaalgorithm.string;
 
-import algorithm.javaalgorithm.Array.*;
+import algorithm.javaalgorithm.array.*;
+import algorithm.javaalgorithm.twopointer.TwoPointer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -251,15 +252,33 @@ public class JavaAlgorithmApplication {
         /**
          * Mentor
          */
-        Mentor mentor = new Mentor();
+//        Mentor mentor = new Mentor();
+//        int n = sc.nextInt();
+//        int m = sc.nextInt();
+//        int[][] arr = new int[m][n];
+//        for (int i=0; i<m; i++) {
+//            for (int j=0; j<n; j++) {
+//                arr[i][j] = sc.nextInt();
+//            }
+//        }
+//        System.out.println(mentor.solution(n, m, arr));
+
+        /**
+         * TwoPointer
+         */
+        TwoPointer twoPointer = new TwoPointer();
         int n = sc.nextInt();
-        int m = sc.nextInt();
-        int[][] arr = new int[m][n];
-        for (int i=0; i<m; i++) {
-            for (int j=0; j<n; j++) {
-                arr[i][j] = sc.nextInt();
-            }
+        int[] arr = new int[n];
+        for (int i=0; i<n; i++) {
+            arr[i] = sc.nextInt();
         }
-        System.out.println(mentor.solution(n, m, arr));
+        int n2 = sc.nextInt();
+        int[] arr2 = new int[n2];
+        for (int j=0; j<n2; j++) {
+            arr2[j] = sc.nextInt();
+        }
+        for (int x : twoPointer.solution(n, arr, n2, arr2)) {
+            System.out.print(x + " ");
+        }
     }
 }

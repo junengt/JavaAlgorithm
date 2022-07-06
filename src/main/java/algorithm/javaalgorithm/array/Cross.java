@@ -1,4 +1,4 @@
-package algorithm.javaalgorithm.Array;
+package algorithm.javaalgorithm.array;
 
 /**
  * 5*5 격자판에 아래롸 같이 숫자가 적혀있습니다.

@@ -1,4 +1,4 @@
-package algorithm.javaalgorithm.Array;
+package algorithm.javaalgorithm.array;
 
 /**
  * 현수네 반 선생님은 반 학생들의 수학점수를 향상시키기 위해 멘토링 시스템을 만들려고 합니다.

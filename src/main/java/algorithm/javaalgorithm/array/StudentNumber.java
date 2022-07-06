@@ -1,4 +1,4 @@
-package algorithm.javaalgorithm.Array;
+package algorithm.javaalgorithm.array;
 
 /**
  * 설명

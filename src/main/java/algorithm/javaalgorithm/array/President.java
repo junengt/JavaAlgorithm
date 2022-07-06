@@ -1,4 +1,4 @@
-package algorithm.javaalgorithm.Array;
+package algorithm.javaalgorithm.array;
 
 /**
  * 김갑동 선생님은 올해 6학년 1반 담임을 맡게 되었다.

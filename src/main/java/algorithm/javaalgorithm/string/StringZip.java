@@ -1,4 +1,4 @@
-package algorithm.javaalgorithm.String;
+package algorithm.javaalgorithm.string;
 
 /**
  *설명
